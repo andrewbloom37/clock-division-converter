@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/andrewbloom37/clock-division-converter/issues"
   },
-  "homepage": "http://andrewbloom37.github.io/clock-division-converter/",
+  "homepage": "http://andrewbloom37.github.io/clock-division-converter",
   "dependencies": {
     "@types/react": "^16.7.6",
     "@types/react-dom": "^16.0.9",
