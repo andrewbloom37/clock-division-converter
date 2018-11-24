@@ -1,0 +1,53 @@
+{
+  "name": "clock-division-converter",
+  "version": "1.0.0",
+  "description": "A calculator for converting common beat divisions into milliseconds",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build ./app/index.html",
+    "start": "parcel ./app/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbloom37/clock-division-converter.git"
+  },
+  "keywords": [
+    "beat-division",
+    "tempo",
+    "time",
+    "music"
+  ],
+  "author": "Andrew Bloom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewbloom37/clock-division-converter/issues"
+  },
+  "homepage": "https://github.com/andrewbloom37/clock-division-converter#readme",
+  "dependencies": {
+    "@types/react": "^16.7.6",
+    "@types/react-dom": "^16.0.9",
+    "@types/styled-components": "^4.1.0",
+    "@types/uuid": "^3.4.4",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-styled-components": "^1.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "typescript": "^3.1.6"
+  }
+}
